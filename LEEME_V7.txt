@@ -1,0 +1,17 @@
+MI PLAN GYM V7 - ACTUALIZACION SEGURA
+
+1. Antes de actualizar, abre la app actual y usa Datos > Exportar completo. Guarda el JSON.
+2. En GitHub, sustituye todo el contenido de la raiz por el contenido de esta carpeta.
+3. No borres los datos desde la aplicacion ni desinstales la PWA.
+4. La V7 mantiene exactamente la clave localStorage miPlanGym_v6 para conservar tus registros actuales.
+5. Abre GitHub Pages en Chrome, recarga y espera a que aparezca v7. Si la instalaste, cierrala completamente y vuelve a abrirla.
+6. Comprueba el historial. Si faltase algo, usa Datos > Importar JSON y selecciona la copia del paso 1.
+
+NOVEDADES
+- Ilustraciones con figura para todos los ejercicios de A, B y C.
+- Imagen ampliable al pulsar.
+- Nombres completos y consejos breves.
+- Registro de ejercicios adicionales dentro de cada rutina.
+- Selector de 1, 2, 3 o 4 personas para recetas y compra.
+- Menu con cantidades y recetas mas detalladas.
+- Compatibilidad con registros anteriores.
