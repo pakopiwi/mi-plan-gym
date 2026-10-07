@@ -1,5 +1,0 @@
-SUBIR TODO EL CONTENIDO DE ESTA CARPETA A LA RAIZ DEL REPOSITORIO.
-Antes, exporta el JSON completo de tu version actual.
-La V6 usa app-v6.js y styles-v6.css. Debe verse una etiqueta v6 junto al titulo.
-En Menu aparecen Menu diario, Lista de la compra y Recetas.
-Las cantidades son orientativas para una persona, no una prescripcion medica.
