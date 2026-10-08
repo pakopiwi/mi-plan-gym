@@ -1,0 +1,38 @@
+MI PLAN GYM V8 - ACTUALIZACION SEGURA
+
+ANTES DE ACTUALIZAR
+1. Abre la version actual.
+2. Ve a Datos > Exportar completo.
+3. Guarda el JSON como copia de seguridad.
+
+INSTALACION EN GITHUB
+1. Sustituye todo el contenido de la raiz del repositorio por el contenido de esta carpeta.
+2. No desinstales la PWA y no pulses Borrar todos los datos.
+3. Espera a que GitHub Pages termine de publicar.
+4. Cierra completamente la app instalada y vuelve a abrirla.
+5. Comprueba que aparece v8 en la cabecera.
+6. Si el navegador conserva la version anterior, recarga la pagina dos veces o borra solo la cache del sitio, nunca los datos del sitio.
+
+SEGURIDAD DE LOS DATOS
+- La V8 mantiene exactamente la clave localStorage miPlanGym_v6.
+- Los entrenamientos, pesos, alimentacion y actividades existentes siguen siendo compatibles.
+- La importacion del JSON de seguridad sigue disponible en Datos > Importar JSON.
+- No se ha renombrado ni eliminado ninguna imagen.
+
+NOVEDADES
+- Historial del dia visible directamente al pulsar una fecha del calendario.
+- Calendario con iconos de gimnasio, cardio, peso y alimentacion.
+- Secuencia A-B-C recalculada desde la ultima rutina realmente realizada.
+- La rutina guardada sustituye visualmente a la prevista en dias pasados.
+- Pesos compartidos entre la misma maquina aunque aparezca con IDs distintos en A y C.
+- Grafico de evolucion en la pantalla Peso, sin dependencias externas.
+- Dashboard semanal en Inicio.
+- Barra de avance durante la rutina.
+
+ARCHIVOS PRINCIPALES V8
+- index.html
+- app-v8.js
+- styles-v8.css
+- service-worker.js
+- manifest.json
+- icons/ e images/ sin cambios de nombres
