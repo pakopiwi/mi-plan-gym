@@ -1,0 +1,18 @@
+MI PLAN GYM V9 - HEALTH CONNECT
+
+IMPORTANTE: la V9 mantiene la clave localStorage miPlanGym_v6. Antes de actualizar GitHub exporta una copia completa JSON.
+
+GITHUB
+- Sustituye el contenido de la raiz por el contenido de github/.
+- No borres datos del sitio ni desinstales la PWA antes de exportar la copia.
+- La web normal sigue funcionando sin Health Connect.
+
+ANDROID
+- El proyecto android/ envuelve la misma web dentro de una WebView y añade un puente nativo de Health Connect.
+- Al pulsar Sincronizar, Android solicita/usa los permisos de lectura y entrega el resumen del dia al JavaScript.
+- Datos previstos: pasos, distancia, calorias activas, frecuencia cardiaca en reposo, sueño y tiempo de ejercicio.
+- Los datos se guardan en data.health y se incluyen en Exportar completo e Informe semanal.
+
+DATOS EXISTENTES
+- No cambia KEY='miPlanGym_v6'.
+- Entrenamientos, peso, comida, agua y demas datos siguen usando el mismo JSON.
